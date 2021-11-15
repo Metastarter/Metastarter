@@ -1,4 +1,4 @@
-pragma solidity >=0.6.0 <0.8.0;
+pragma solidity 0.7.6;
 
 /*
  * @dev Provides information about the current execution context, including the
@@ -21,7 +21,7 @@ abstract contract Context {
     }
 }
 
-pragma solidity >=0.6.0 <0.8.0;
+
 
 /**
  * @dev Interface of the BEP20 standard as defined in the EIP.
@@ -97,7 +97,7 @@ interface IBEP20 {
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
 
-pragma solidity >=0.6.0 <0.8.0;
+
 
 /**
  * @dev Wrappers over Solidity's arithmetic operations with added overflow
@@ -310,7 +310,7 @@ library SafeMath {
     }
 }
 
-pragma solidity >=0.6.0 <0.8.0;
+
 
 
 
@@ -614,7 +614,7 @@ contract BEP20 is Context, IBEP20 {
     function _beforeTokenTransfer(address from, address to, uint256 amount) internal virtual { }
 }
 
-pragma solidity >=0.6.0 <0.8.0;
+
 
 
 
@@ -654,7 +654,7 @@ abstract contract BEP20Burnable is Context, BEP20 {
     }
 }
 
-pragma solidity >=0.6.2 <0.8.0;
+
 
 /**
  * @dev Collection of functions related to the address type
@@ -842,7 +842,7 @@ library Address {
     }
 }
 
-pragma solidity >=0.6.0 <0.8.0;
+
 
 /**
  * @dev Contract module which provides a basic access control mechanism, where
@@ -911,7 +911,7 @@ abstract contract Ownable is Context {
 
 // SPDX-License-Identifier: NO LICENSE
 
-pragma solidity 0.7.6;
+
 
 
 
